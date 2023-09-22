@@ -25,6 +25,8 @@ quarkus:
       otlp:
         traces:
           endpoint: ${OTEL_URL}
+  devservices:
+    enabled: false
 mp:
   messaging:
     connector:
